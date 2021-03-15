@@ -14,8 +14,9 @@ public class SteamConstructor {
         Stream<Integer> stream=list.stream();
         // 최종 연산
         System.out.println(stream.count());
-        // 중간 연산.
-        Stream<Integer> stream2=stream.limit(5);
+        // 중간 연산. error
+//        Stream<Integer> stream2=stream.limit(5);
+        Stream<Integer> stream2=list.stream().limit(5);
         stream2.forEach(System.out::println);
     }
 }

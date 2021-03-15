@@ -1,6 +1,4 @@
-package ch3_Functional_Programming;
-
-import lombok.*;
+package ch5_Stream;
 
 
 public class TravelInfo {
