@@ -18,7 +18,7 @@ public class Person implements Comparable<Person>{
         {
             Person p1=(Person)obj;
 
-            if(p1.getName().equals(this.getName()) && p1.getAge()==this.getAge())
+            if(p1.getName().equals(this.getName()))
                 return true;
             else
                 return false;
@@ -29,7 +29,7 @@ public class Person implements Comparable<Person>{
 
     @Override
     public int hashCode() {
-        return (name+age).hashCode();
+        return (name).hashCode();
     }
 
     public String getName() {
@@ -50,6 +50,6 @@ public class Person implements Comparable<Person>{
 
     @Override
     public int compareTo(Person o) {
-        return (name+age).compareTo(o.getName()+o.getAge());
+        return (o.getAge())-(age);
     }
 }

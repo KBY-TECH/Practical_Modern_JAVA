@@ -16,7 +16,7 @@ public class Stream_Filter_Distinct_Ex {
     {
         List<Person> list=new ArrayList<>();
         list.add(new Person("K",10));
-        list.add(new Person("K",10));
+        list.add(new Person("K",20));
         list.add(new Person("P",20));
         list.add(new Person("L",31));
         return list;
