@@ -46,7 +46,7 @@
                람다 표현식을 대체하기 위한 것이 아닌 상호 보완적인 관계.
 
 
-2. ch5_Stream '2021.03.14'
+## 3. ch5_Stream `2021.03.14`
    <br>
    <br>
    #### Learning Objectives
